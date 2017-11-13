@@ -108,3 +108,37 @@ margin: auto;
   text-decoration: underline;
   border: none;
 }
+
+.aboutus{
+  position: relative;
+  width: 93%;
+  margin: auto;
+  padding: 30px 0px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.aboutus h2{
+  font-size: 170%;
+}
+
+.aboutus p{
+  line-height: 1.5em;
+  font-size: 110%;
+}
+
+.work{
+  position: relative;
+  width: 93%;
+  margin: auto;
+  padding: 30px 0px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.projects{
+  position: relative;
+  width: 100%;
+}
+
+.pagefooter{
+  position: relative;
+}
