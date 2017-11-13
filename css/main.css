@@ -73,9 +73,38 @@ margin: auto;
 
 .pageheader{
   width: 100%;
+  position: relative;
 }
 
 .pageheader img{
   width: 100%;
   position: relative;
+}
+
+ .pageheader h1{
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -48%);
+  font-size: 400%;
+  color: white;
+  text-align: center;
+}
+
+.pageheader a{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  font-size: 300%;
+  border: 3px solid white;
+  color: white;
+  text-decoration: none;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.pageheader a:hover{
+  text-decoration: underline;
+  border: none;
 }
