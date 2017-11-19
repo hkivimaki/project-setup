@@ -8,7 +8,7 @@ html {
 }
 
 body{
-  
+padding-top: 3.25em;
 }
 
 h1,
@@ -22,4 +22,39 @@ h5 {
 
 img{
   max-width: 100%;
+}
+
+.page-header{
+  background: #000;
+  color: white;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.page-header h1{
+  margin: 0;
+  font-size: 1em;
+}
+
+.page-header .main-nav{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.page-section{
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+.jumbotron{
+  background: hsla(0,100%,50%,0.5);
+}
+
+.jumbotron__bg{
+  position: relative;
+  z-index: -10;
 }
